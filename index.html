@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>♟️ Chess Game ♟️</h1>
+        <div class="game-info">
+            <div class="status">
+                <p id="turn">Turn: White</p>
+                <p id="check">Check: No</p>
+            </div>
+            <button id="resetBtn">Reset Game</button>
+        </div>
+        <div class="board" id="board"></div>
+        <div class="captured">
+            <h3>Captured Pieces</h3>
+            <p>White: <span id="capturedWhite"></span></p>
+            <p>Black: <span id="capturedBlack"></span></p>
+        </div>
+    </div>
+
+    <script src="chess.js"></script>
+</body>
+</html>
